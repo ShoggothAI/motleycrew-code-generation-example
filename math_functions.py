@@ -1,11 +1,11 @@
 from typing import Union
 
 
-def plus(a: Union[int, float], b: Union[int, float]) -> Union[int, float]:
+def add(a: Union[int, float], b: Union[int, float]) -> Union[int, float]:
     return a + b
 
 
-def minus(a: Union[int, float], b: Union[int, float]) -> Union[int, float]:
+def sub(a: Union[int, float], b: Union[int, float]) -> Union[int, float]:
     return a - b
 
 
